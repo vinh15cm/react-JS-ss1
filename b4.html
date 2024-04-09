@@ -7,17 +7,17 @@
 </head>
 <body>
     <script>
-        let danhSachSach = [
-            {id: 1, name: 'Sách A'},
-            {id: 2, name: 'Sách B'},
-            {id: 3, name: 'Sách C'}
+        let danhSach = [
+            {id: 1, name: 'Sách văn'},
+            {id: 2, name: 'Sách Toán'},
+            {id: 3, name: 'Sách Lý'}
         ];
     function timSachTheoId(id) {
-    let sachTimThay = danhSachSach.find((sach) => sach.id === id);
-    if (sachTimThay) {
+    let sachTim = danhSach.find((sach) => sach.id === id);
+    if (sachTim) {
 
-        console.log('Id sách:', sachTimThay.id);
-        console.log('Tên sách:', sachTimThay.name);
+        console.log('Id sách:', sachTim.id);
+        console.log('Tên sách:', sachTim.name);
         
     } else {
     console.log('Không có kết quả tìm kiếm');
